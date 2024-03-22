@@ -1,0 +1,42 @@
+<!-- <mat-toolbar [ngClass]="selectedClient">
+ 
+  <span>My App</span>
+  <span class="example-spacer"></span>
+  <button mat-raised-button >
+    Add User
+  </button>
+  
+</mat-toolbar> -->
+
+
+<!-- <div [ngClass]="selectedClient">
+  <h1>Client {{ selectedClient }} Theme</h1>
+  <p>This is the content for Client {{ selectedClient }}.</p>
+</div> -->
+
+
+<!-- <div class="main-content" [ngClass]="selectedClient">
+  <header [ngClass]="selectedClient">
+
+  </header>
+  <div class="selector">
+    <mat-form-field appearance="fill">
+      <mat-label>select Them</mat-label>
+      <mat-select [(ngModel)]="selectedClient">
+        <mat-option value="clientA">Client A</mat-option>
+        <mat-option value="clientB">Client B</mat-option>
+        <mat-option value="clientC">Client C</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </div>
+  <app-create-edit (clientSelected)="updateTheme($event)"></app-create-edit>
+</div> -->
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <app-create-edit></app-create-edit>
+        </div>
+    </div>
+  
+</div>
